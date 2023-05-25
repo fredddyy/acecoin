@@ -1,23 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import PaymentModal from "./components/PaymentModal";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="lg:p-[40px] xl:px-[70px] xl:py-[40px]  bg-gradient-to-r from-[#A3BFD5] from-1% to-[#0B32C9]  to-90% h-screen">
+      <PaymentModal />
     </div>
   );
 }
